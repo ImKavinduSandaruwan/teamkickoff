@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KickOff</title>
+    <link rel="shortcut icon" href="Images/sitelogo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navBar.css">
+</head>
+<body style="background-color: rgba(0,0,0,0.6);">
+    <nav>
+        <div class="logo"><span>Kick</span> off<b>.</b></div>
+        <ul class="navitems">
+            <li class="current_page"><a href="../../student2/mainpage.html">Home</a></li>
+            <li class="current_page"><a href="../../student2/comments.html">Comment</a></li>
+            <li class="current_page"><a href="../../student1/shop.html">Shop</a></li>
+            <li class="active_page"><a href="../student3/Quiz/quiz.html">Quiz</a></li>
+            <li class="current_page"><a href="../../student4/SiteMap.html">Site Map</a></li>
+            <li class="current_page"><a href="../AboutUs/About.html">About</a></li>
+            <li class="current_page"><a href="../../student4/GALLERY.html">Gallery</a></li>
+        </ul>
+        <div class="social-media-links">
+            <a href="#footer"><i class="fab fa-linkedin"></i></a>
+            <a href="#footer"><i class="fab fa-instagram"></i></a>
+            <a href="#footer"><i class="fab fa-twitter"></i></a>
+        </div>
+    </nav>
+    <!-- Start button -->
+    <div class="start"><button>Start Quiz</button></div>
+
+    <!-- Rules and info -->
+    <div class="info_box">
+        <div class="info-title"><span>Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You only have <span id="time_txt">60 seconds</span> to complete the quiz.</div>
+            <div class="info">2. Selected answers will be checked instantly.</div>
+            <div class="info">3. In case if time runs out, quiz will end.</div>
+            <div class="info">4. Score will be displayed at the end.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left :</div>
+                <div class="timer_sec">60</div>
+            </div>
+            <div class="timerbar"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Questions through Javascript -->
+            </div>
+            <div class="option_list">
+                <!-- Options through Javascript-->
+            </div>
+        </section>
+
+        <!--Quiz box footer -->
+        <footer>
+            <div class="total_que">
+                <!-- Display question number through Javascript -->
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- Results -->
+    <div class="result_box">
+        <div class="icon">
+            <img src="Images/ball.png" width="50%" height="50%" alt="ball">
+        </div>
+        <div class="complete_text">Quiz Completed</div>
+        <div class="score_text">
+            <!-- Results show through Javascript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <h3><a href="../PageEditor/pageEditor.html" style="color: white; text-decoration: none;"> 2023 - Eshan Amarasekara </a></h3>
+    </footer>
+    <!-- Javascript to contain questions -->
+    <script src="questionbank.js"></script>
+
+    <!-- Javascript for the quiz functions -->
+    <script src="quiz.js"></script>
+
+</body>
+</html>

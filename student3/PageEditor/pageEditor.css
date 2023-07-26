@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    color: white;
+    background-color: #000;
+    background: rgba(0, 0, 0, 0.7)url(Images/pexels-gonzalo-acuña-10923066.jpg);
+    background-size: 1550px 950px;
+    background-position-y:-150px ;
+    background-blend-mode: darken ;
+  }
+
+.pageEditor{
+
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.details{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 15px 0 15px 0;
+    border-top: 2px solid #00DFA2;
+    border-bottom: 2px solid #00DFA2;
+}
+
+.content{
+
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+button{
+    transition: 0.4s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 15px ;
+    border-color: #00DFA2;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+button:hover{
+    background-color: aliceblue;
+    transition: 0.4s;
+    scale: 105%;
+    border-radius: 15px ;
+    border-color: white;
+    box-shadow: 0 0 20px 0.5px whitesmoke;
+    .b{color: #000;}
+}
+button a:hover{
+    transition: 0.4s;
+    
+}

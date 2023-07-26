@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: whi;
+}
+
+/* first container*/
+.container-one{
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.7) url("Images/clubs.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.container-one h1{
+    color: rgb(0, 223, 162);
+    position: absolute;
+    top: 180px;
+    left: 600px;
+    font-size: 50px;
+    text-align: center;
+}
+.logoText{
+    color: #00DFA2;
+}
+.one{
+    border: dotted whitesmoke 6px;
+    border-bottom: none;
+    width: 4%;
+    position: absolute;
+    top: 270px;
+    left: 750px;
+    text-align: center;
+}
+.top-p{
+    color: white;
+    position: absolute;
+    top: 320px;
+    bottom: 20px;
+    left: 250px;
+    line-height: 2;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*mid container*/
+.middle-container{
+    color:black;
+    
+}
+.skill-row{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row h3{
+    margin-top: 50px;
+}
+.skill-row p{
+    margin-top: 0px;
+    text-align: justify;
+}
+
+.clubs{
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-right: 90px;
+}
+.s_clubs{
+    width: 30%;
+    height: 50%;
+    float: left;
+    margin-right: 90px;
+    scale: 120%;
+}
+
+h3{
+    color: #00DFA2;
+    text-align: center;
+    font-size: 40px;
+}

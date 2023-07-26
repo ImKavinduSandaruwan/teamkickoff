@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+  background: rgba(0, 0, 0, 0.5) url(Images/pexels-riccardo-41257.jpg);
+    background-size: 1550px 950px;
+    background-position-y:-150px ;
+    background-blend-mode: darken ;
+  }
+.row {
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px 16px;
+  text-align: center;
+}
+.column {
+
+  width: 20%;
+  display: inline-block;
+  margin:auto;
+}
+h1 {
+  margin-top: 8%;
+  width: 100%;
+  text-align: center;
+  font-size: 56px;
+  color: #FFF;
+}
+
+
+.details{
+  visibility: hidden;
+  text-align: center;
+  color:#000;
+}
+
+.card {
+
+  box-shadow: 0 0 38px rgba(25, 0, 58, 0.1);
+  padding: 30px 16px;
+  border:#00DFA2 solid 2px;
+  border-radius: 10px;
+  color: #FFF;
+  background-color:  rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.card .img-container {
+  width: 130px;
+  height: 130px;
+  background-color: #00DFA2;
+  padding: 1.6px;
+  border-radius: 50%;
+  margin: 0 auto 32px auto;
+  
+}
+
+.card img {
+  width: 99%;
+  height: 99%;
+  margin-top: 1px;
+  border-radius: 50%;
+  background: linear-gradient(140deg, rgb(250, 250, 250) 50.5%, rgb(183, 204, 208) 90.2%);
+  
+}
+.card h3{
+  
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card span {
+  font-size: 17px;
+  text-transform: uppercase;
+  margin: 8px 0 20 0;
+  
+}
+
+.hr{
+  border:solid 4px black;
+  
+}
+.card:hover {
+  background-color:black ;
+  color: #FFF;
+  transform: scale(1.15);
+  /*.img-container{
+    background-color: black;
+  }*/
+  .details{visibility: visible;
+    color: #FFF;
+  transition-duration: 1s;}
+  .hr{
+    border-top:solid 4px white;
+    transition-duration: 1s;
+
+}
+
+}
+
+
+/*
+@media screen and (min-width: 768px) {
+  section {
+    padding: 16px 112px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    padding: 16px;
+  }
+  .card {
+    padding: 80px 16px;
+  }
+  .column {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 0 16px;
+  }
+}
+*/

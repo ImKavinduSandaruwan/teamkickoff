@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KickOff</title>
+    <link rel="stylesheet" href="commentStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="Images/sitelogo.ico" type="image/x-icon">
+</head>
+<body>
+    <!--Navigation bar-->
+    <!--Implement navigation bar-->
+    <nav>
+        <div class="logo"><span class="logoText">kick</span>off<b>.</b></div>
+        <ul class="navitems">
+            <li class="current_page"><a href="mainpage.html">Home</a></li>
+            <li class="active_page"><a href="comments.html">Comment</a></li>
+            <li class="current_page"><a href="../student1/shop.html">Shop</a></li>
+            <li class="current_page"><a href="../student3/Quiz/quiz.html">Quiz</a></li>
+            <li class="current_page"><a href="../student4/SiteMap.html">Site Map</a></li>
+            <li class="current_page"><a href="../student3/AboutUs/About.html">About</a></li>
+            <li class="current_page"><a href="../student4/GALLERY.html">Gallery</a></li>
+        </ul>
+        <!--Social media icons-->
+        <div class="social-media-links">
+            <a href="#footer"><i class="fab fa-linkedin"></i></a>
+            <a href="#footer"><i class="fab fa-instagram"></i></a>
+            <a href="#footer"><i class="fab fa-twitter"></i></a>
+        </div>
+    </nav>
+
+    <!--Create container for html form-->
+    <div class="hero">
+        <form action="mailto:kavinduy6p@gmail.com" method="post" enctype="text/plain" id="myForm"
+            onsubmit="return validate()">
+
+            <!--take user name as input using html-->
+            <div class="input-grp">
+                <label for="name" class="in-box">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+            </div>
+
+            <!--10 Radio buttons-->
+            <div class="input-grp">
+                <p>Give us rating</p>
+                <div class="radio-container" id="ratingContainer">
+                    <div class="row">
+                        <label for="radio0">0</label><input type="radio" value="0" id="radio0" name="rating">
+                    </div>
+                    <div class="row">
+                        <label for="radio1">1</label><input type="radio" value="1" id="radio1" name="rating">
+                    </div>
+                    <div class="row">
+                        <label for="radio2">2</label><input type="radio" value="2" id="radio2" name="rating">
+                    </div>
+                    <div class="row">
+                        <label for="radio3">3</label><input type="radio" value="3" id="radio3" name="rating">
+                    </div>
+                    <div class="row">
+                        <label for="radio4">4</label><input type="radio" value="4" id="radio4" name="rating">
+                    </div>
+                    <div class="row">
+                        <label for="radio5">5</label><input type="radio" value="5" id="radio5" name="rating">
+                    </div>
+                    <div class="row">
+                        <label for="radio6">6</label><input type="radio" value="6" id="radio6" name="rating">
+                    </div>
+                    <div class="row">
+                        <label for="radio7">7</label><input type="radio" value="7" id="radio7" name="rating">
+                    </div>
+                    <div class="row">
+                        <label for="radio8">8</label><input type="radio" value="8" id="radio8" name="rating">
+                    </div>
+                    <div class="row">
+                        <label for="radio9">9</label><input type="radio" value="9" id="radio9" name="rating">
+                    </div>
+                    <div class="row">
+                        <label for="radio10">10</label><input type="radio" value="10" id="radio10" name="rating">
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="input-grp">
+                <!--Create textarea for get feedback message from user-->
+                <label for="msg" class="in-box">Please could you tell us your reasons for givin this rating</label>
+                <textarea name="msg" id="msg" rows="8"></textarea>
+                
+                <!--Create dropdown list-->
+                <label for="selection1">How did you want to complete this task today? (optional)</label>
+                <select name="selection1" id="selection1" class="list">
+                    <option disabled selected>--Please Select--</option>
+                    <option value="Phone">Phone</option>
+                    <option value="Website">Website</option>
+                    <option value="Webchat">Webchat</option>
+                    <option value="Social media">Social media</option>
+                    <option value="Email">Email</option>
+                </select>
+            </div>
+
+            <!--Create dropdown list-->
+            <div class="input-grp">
+                <label for="selection1">If you had to complete this task again how would to prefer to do it.</label>
+                <select name="selection1" id="selection2" class="list">
+                    <option disabled selected>--Please Select--</option>
+                    <option value="Phone">Phone</option>
+                    <option value="Website">Website</option>
+                    <option value="Webchat">Webchat</option>
+                    <option value="Social media">Social media</option>
+                    <option value="Email">Email</option>
+                </select>
+            </div>
+
+            <!--Create a submit button-->
+            <button class="submit" type="submit">Submit</button>
+
+        </form>
+    </div>
+
+    <!--Bottom section-->
+    <footer class="footer">
+        <div class="container">
+            <div class="rows">
+                <div class="footer-col">
+                    <h4>Our team</h4>
+                    <ul>
+                        <li><a href="../student3/AboutUs/About.html">about us</a></li>
+                        <li><a href="../student1/shop.html">our services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>contact us</h4>
+                    <ul>
+                        <li><a href="../student2/comments.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="../student1/shop.html">footballs</a></li>
+                        <li><a href="../student1/shop.html">shoes</a></li>
+                        <li><a href="../student1/shop.html">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <h3 class="copyright"><a href="pageEditor.html">© 2023 - Kavindu Sandaruwan</a></h3>
+        </div>
+    </footer>
+
+    <!--Link java script file-->
+    <script src="comment.js"></script>
+</body>
+</html>

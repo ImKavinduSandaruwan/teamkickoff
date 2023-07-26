@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KickOff</title>
+    <link rel="stylesheet" href="pageEditor.css">
+    <link rel="shortcut icon" href="Images/sitelogo.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <!--Set heading one and give name of the page as heading-->
+    <div class="pageEditor">
+        <h1>Page Editor</h1>
+    </div>
+    
+    <!--Creater details container-->
+    <!--This will shows the details of the developer-->
+    <div class="editorDetails">
+        <p>Name: Kavindu Sandaruwan</p>
+        <p>Student ID: 20221150</p>
+        <p>Role: Student 2</p>
+        <p>The following pages edited by me.</p>
+    </div>
+
+    <!--This contains all in task that developer did.-->
+    <div class="content">
+        <h2>Main Page</h2>
+        <p>Create a main (home) page to access several parts of the site with HTML , CSS and Javascript</p>
+        <p>Style main page with css and add functionalities using js.</p>
+        <button id="btn-1" onclick="navigateToMainpage()">Main menu</button>
+        <br><br>
+        <h2>Comment Form</h2>
+        <p>Create a comment form page.</p>
+        <p>Style comment page with html and css</p>
+        <p>Validate user inputs and sent feedback to email.</p>
+        <button id="btn-2" onclick="navigateToCommentpage()">Comment Form</button>
+        <br><br>
+        <h2>Additional Content Page</h2>
+        <p>Create an additional page about football.</p>
+        <p>Style that page using css and ad functionalities using js</p>
+        <button id="btn-3" onclick="navigateToEditorpage()">Additional Content</button>
+    </div>
+
+    <!--Connect javascript file with html file.-->
+    <script src="pageeditor.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>">
+  <meta http-equiv="refresh" content="4;../student2/mainpage.html">
+  <title>KickOff</title>
+  <link rel="stylesheet" href="css/ps.css"> 
+</head>
+<body>
+  <section style="padding-bottom: 200px; padding-right: 100px;">
+    <div class="content" id="Corner" style="display: none;">
+      <h2>Kick </h2>
+      <h2>kick</h2>
+    </div>
+</section>
+<section style="padding-top: 100px;  padding-right: 500px;">
+    <div class="content" id="Kick" style="display: none;">
+        <h2>off</h2>
+        <h2>off</h2>
+    </div>
+</section>
+  <div class="box">
+    <div class="students"> <h1>Gayantha Madusnaka <br><br>20221162</h1><br><hr style="width:75%;text-align:right;margin-right:0; margin-bottom: 20px;">
+                            <h1> Kavindu Kumara<br><br>20221150</h1><br><hr style="width:75%;text-align:right;margin-right:0 ; margin-bottom: 20px; ">
+                            <h1> Eshan Amarasekara <br><br>20221570</h1><br><hr style="width:75%;text-align:right;margin-right:0 ;margin-bottom: 20px;">
+                            <h1>Chamithu Jayathilake<br><br> 20221275</h1><br><hr style="width:75%;text-align:right;margin-right:0;">
+    </div>
+</div>
+
+  <video autoplay muted  id="myVideo">
+    <source src="vod.mp4" type="video/mp4">
+  </video>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get the video element
+      var video = document.getElementById('myVideo');
+    video.play(); 
+      
+     function kick() { 
+    document.getElementById("kick").style.display = "inline"; 
+    }
+
+    //this calls the function above, 4000 milliseconds is 4.0 seconds
+    setTimeout("offAppear()", 4000);
+
+    function offAppear() { 
+    document.getElementById("off").style.display = "inline"; 
+    }
+
+  });
+  </script>
+</body>
+</html>

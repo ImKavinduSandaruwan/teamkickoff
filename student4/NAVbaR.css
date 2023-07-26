@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(203, 195, 195);
+}
+
+/*Styling Nav bar*/
+b{
+    font-size: 70px;
+    color: #00DFA2;
+}
+
+.logo .logoText{
+    color: #00DFA2;
+}
+.logo{
+    display: flex;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+nav{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    z-index: 111;
+    line-height: 80px;
+    top: 20px;
+}
+
+.navitems{
+    display: flex;
+}
+
+.navitems li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navitems .current_page a{
+    font-size: 20px;
+    padding: 1px 8px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.navitems li:hover a{
+    color: black;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 1px 8px;
+}
+
+.navitems .active_page a{
+    font-size: 20px;
+    padding: 1px 8px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
+
+.social-media-links a:hover{
+    color: black;
+    background-color: white;
+    padding: 1px 5px;
+    
+}
+
+.social-media-links a{
+    padding: 1px 5px;
+    color: #fff;
+    font-size: 22px;
+    margin: 25px 10px;
+}

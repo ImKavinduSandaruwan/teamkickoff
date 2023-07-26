@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.gallery {
+    
+    display: flex;
+    flex-wrap: wrap;
+      padding-left: 40px;
+      padding-bottom: 40px;
+      
+  }
+  .gallery img {
+    
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+  }
+  .gallery img:hover{
+      border: 1px solid white;
+  }
+  
+  #expandedContainer {
+    padding-top: 50px;
+    display: none;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    background-color: none;
+    border-color: black;
+    border: 2in;
+  }
+
+  
+  #expandedImage {
+    width: 100%;
+    height: auto;
+    
+  }
+  #expanimg{
+      width: 60%;
+  }
+
+ 
+  #imgDescription {
+    width: 40%;
+    text-align: left;
+    
+    color: white;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .closeButton {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    stroke:white;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .hm{
+      text-align: right;
+      margin-bottom: 100px;
+  }
+  .buttons
+  {
+   
+    text-align: right;
+    margin-bottom: 30px;
+    
+    margin-left: 92%;
+    cursor: pointer;
+    
+    padding-right: 20px;
+    position: fixed;
+    
+  }
+  .colour{
+    text-align: right;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 85%;
+    cursor: pointer;
+    padding-right: 20px;
+    position: fixed;
+    
+  }
+  .players{
+      color: white;
+      text-align: center;
+      margin-bottom: 20px;
+  }

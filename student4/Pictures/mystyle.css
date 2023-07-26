@@ -1,0 +1,14 @@
+
+body {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 20px; 
+}
+h1{
+    background-color: rgb(217, 102, 87);
+    font-size: 2.5em;
+    text-align: center;
+}
+p,address {
+    color:blue
+}

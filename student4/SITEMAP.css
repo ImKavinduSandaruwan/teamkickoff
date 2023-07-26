@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+body{
+    background:  rgba(0, 0, 0, 0.7)url(Pictures/Football_Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+#site{
+    padding-bottom: 20%;
+}
+
+#site g:hover{
+    cursor: pointer;
+    
+}
+rect:hover{
+    background-color: red;
+}

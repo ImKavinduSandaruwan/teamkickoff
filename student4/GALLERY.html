@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kick OFF</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="Images/sitelogo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="NAVbaR.css">
+    <link rel="stylesheet" href="GALLery.css">
+    <link rel="stylesheet" href="FooteR.css">
+    <link rel="icon" href="Pictures/sitelogo.ico">
+</head>
+<body>
+        <!--Navigation bar-->
+        <nav id="navigation">
+
+            <div class="logo"><span class="logoText">kick</span>off<b>.</b></div>
+            <ul class="navitems">
+                <li class="current_page"><a href="../student2/mainpage.html">Home</a></li>
+                <li class="current_page"><a href="../student2/comments.html">Comment</a></li>
+                <li class="current_page"><a href="../student1/shop.html">Shop</a></li>
+                <li class="current_page"><a href="../student3/Quiz/quiz.html">Quiz</a></li>
+                <li class="current_page"><a href="../student4/SiteMap.html">Site Map</a></li>
+                <li class="current_page"><a href="../student3/AboutUs/About.html">About</a></li>
+                <li class="active_page"><a href="../student4/GALLERY.html">Gallery</a></li>
+
+            </ul>
+            <div class="social-media-links">
+                <a href="#footer"><i class="fab fa-linkedin"></i></a>
+                <a href="#footer"><i class="fab fa-instagram"></i></a>
+                <a href="#footer"><i class="fab fa-twitter"></i></a>
+            </div>
+        
+        </nav>
+        <div class="hm"></div>
+        <div class="buttons">
+            <label for="sizeRange" style="color: white;">Size:</label>
+            <button type="button" name="btn1" onclick="decreaseTextSize()" >-A</button>
+            <button type="button" name="btn2" onclick="increaseTextSize()">+A</button>
+          </div>
+          <div class="colour">
+            <button onclick="changeBackgroundColor('black')">Black</button>
+            <button onclick="changeBackgroundColor('blue')">Blue</button>
+            <button onclick="changeBackgroundColor('green')">Green</button>
+            <button onclick="changeBackgroundColor('purple')">Purple</button>
+          </div>
+          <h1 class="players" id="textToChange">Players</h1>
+          <div class="gallery">
+            
+            <img src="Pictures/Diego-Maradona-1986.webp" alt="maradona" onclick="expandImage(this, 'Diego Maradona. He was a argentinian footballer who is considerd as one of the greatest players of all time. Born on October 30, 1960, Maradona began his football carrier at Argentinos Juniors. Maradona was famous for the increadible skill and agility he displayed when playing.  ')">
+            <img src="Pictures/pele-fc-santos-1968-1671704089-98899.jpg" alt="pele" onclick="expandImage(this, 'Edson Arantes do Nascimento, better known as Pelé can be considered as one of the legends of football.Born on Octomber 23, 1940, he began his carrier at just 15 years of age for Santos FC in 1956 and whent on to score 1,281 goals in 1,363 games over the course of his carrier.')">
+            <img src="Pictures/ronaldo.jpg" alt="ronaldo" onclick="expandImage(this, 'Cristiano Ronaldo also known as CR7 was a player born into poverty.He was bron on February 5, 1985 in Portugal and started his football carrier at Sporting Lisbon. He became famous for his goal scoring ability, technical skills and his increadible athletism and won a total of 37 trophies including seven league titles. ')">
+            <img src="Pictures/skynews-lionel-messi-psg_6177606.jpg" alt="messi" onclick="expandImage(this, 'Lionel Messi born on June 24 , 1987 in Argentina became widely popular amoung the currentplayers as one of the most skilled players. He kicked off his carrier at Newells Old Boys before moving on to FC Barcelona. He whent on to obtain several awards for his skill including the Ballon dOr award on seven occassions.')">
+            <img src="Pictures/marta.webp" alt="marta" onclick="expandImage(this, 'Marta Vieira da Silva, known as Marta, is a Brazilian professional footballer who currenly plays as a forward for the Brazilian national team. She has scored at five diffrent Womens world cups and was dupped by her fans as Queen Marta.')">
+            <img src="Pictures/alexia.webp" alt="alexia" onclick="expandImage(this, 'Alexia Putellas is a spanish football player who is the captian of Barcelona team  where she plays as a midfilder. She is increadiblely skilled and is the winner of the 2022 Womens Ballon dOr.    ')">
+            <img src="Pictures/jenni-hermoso.webp" alt="jennifer" onclick="expandImage(this, 'Jennifer Hermoso Fuentes is a spanish fotbal player who plays for the Spain Womens national team.She started her carrier at her hometown club known as Atlético Madrid where she stayed for eight years. She is considered the alltime top scorer for both Barcelona and Spain. ')">
+            <img src="Pictures/Alex morgan.jpg" alt="morgan" onclick="expandImage(this, 'Alexandra Morgan Carrasco is a  34 year old American fotball player who plays as striker and she also captains the San Diego Wave FC. She was awarded the Concacaf player of the year award four times in four consecutive years for her increadible skill.')">
+          </div>
+
+          <div id="expandedContainer">
+                <span class="closeButton" onclick="hideDescription()">&times;</span>
+                <div id="expanimg"><img src="" id="expandedImage"></div>
+                <div id="imgDescription" ></div>
+          </div>
+          <script src="GallerY.js"></script>
+
+           <!--Bottom section-->
+     <footer class="footer">
+      <div class="container">
+          <div class="rows">
+              <div class="footer-col">
+                  <h4>Our team</h4>
+                  <ul>
+                      <li><a href="../student3/AboutUs/About.html">about us</a></li>
+                      <li><a href="../student1/shop.html">our services</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>contact us</h4>
+                  <ul>
+                      <li><a href="../student2/comments.html">FAQ</a></li>
+
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>online shop</h4>
+                  <ul>
+                      <li><a href="../student1/shop.html">footballs</a></li>
+                      <li><a href="../student1/shop.html">shoes</a></li>
+                      <li><a href="../student1/shop.html">dress</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>follow us</h4>
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+              </div>
+          </div>
+          <h3><a href="Page_Editor.html">© 2023 - Chamithu Jayathilaka</a></h3>
+      </div>
+  </footer>
+          
+</body>
+</html>
